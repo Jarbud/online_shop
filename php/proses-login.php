@@ -5,7 +5,7 @@ $email = $_POST['email'];
 $password = md5($_POST['password']);
 $error = "username / password salah!";
 
-$sql = "select * from user where email='$email'and password='$password'";
+$sql = "select * from login where email='$email'and password='$password'";
 $result = mysqli_query($connect, $sql);
 $cek = mysqli_num_rows($result);
 
