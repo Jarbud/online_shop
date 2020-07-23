@@ -331,6 +331,8 @@
                 </div>
             </header>
             <!-- HEADER DESKTOP-->
+            <!-- modal tambah barang-->
+            <?php include 'modal-barang.html';?>
 
             <!-- MAIN CONTENT-->
             <div class="main-content">
@@ -346,50 +348,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- modal tambah -->
-                        <div class="modal fade" id="insert" role="dialog">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                        <h4 class="modal-title">Tambah</h4>
-                                    </div>
-                                    <div class="modal-body">
-                                        <form class="form-horizontal" action="" method="post">
-                                            <div class="box-body">
-                                                <div class="form-group">
-                                                    <label for="dummy" class="col-sm-3 control-label">dummy</label>
-                                                    <div class="col-sm-9">
-                                                        <input type="text" class="form-control" id="dummy"
-                                                            placeholder="dummy" name="dummy">
-                                                    </div>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label for="dummy" class="col-sm-3 control-label">dummy</label>
-                                                    <div class="col-sm-9">
-                                                        <select name="dummy" class="select2 form-control"
-                                                            style="width:100%;">
-                                                            <option>dummy</option>
-                                                            <option value="dummy">1</option>
-                                                            <option value="dummy">2</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                            <!-- /.box-body -->
-                                            <div class="box-footer">
-                                                <input type="submit" name="submit" class="btn btn-primary"></a>
-                                                <a href="?admin-page=barang" class="btn btn-default">Cancel</a>
-                                            </div>
-                                            <!-- /.box-footer -->
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- ahkir modal tambah-->
                         <!-- TABLE -->
                         <div class="row">
                             <div class="col-lg-12">
@@ -546,7 +504,6 @@
             <!-- END MAIN CONTENT-->
             <!-- END PAGE CONTAINER-->
         </div>
-
     </div>
 
     <!-- Jquery JS-->
