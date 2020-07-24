@@ -33,6 +33,17 @@
     <!-- Main CSS-->
     <link href="../css/theme.css" rel="stylesheet" media="all">
 
+    <!-- Jquery -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function() {
+            $("#tanggal").datepicker();
+        });
+    </script>
+
 </head>
 
 <body class="animsition">
@@ -163,8 +174,7 @@
                     <div class="container-fluid">
                         <div class="header-wrap">
                             <form class="form-header" action="" method="POST">
-                                <input class="au-input au-input--xl" type="text" name="search"
-                                    placeholder="Search for datas &amp; reports..." />
+                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
                                 <button class="au-btn--submit" type="submit">
                                     <i class="zmdi zmdi-search"></i>
                                 </button>
@@ -332,7 +342,7 @@
             </header>
             <!-- HEADER DESKTOP-->
             <!-- modal tambah barang-->
-            <?php include 'modal-barang.html';?>
+            <?php include 'modal-barang.html'; ?>
 
             <!-- MAIN CONTENT-->
             <div class="main-content">
@@ -342,8 +352,7 @@
                             <div class="col-md-12">
                                 <div class="overview-wrap">
                                     <h2 class="title-1">table barang</h2>
-                                    <button class="au-btn au-btn-icon au-btn--blue" data-toggle="modal"
-                                        data-target="#insert">
+                                    <button class="au-btn au-btn-icon au-btn--blue" data-toggle="modal" data-target="#insert">
                                         <i class="zmdi zmdi-plus"></i>tambah barang</button>
                                 </div>
                             </div>
@@ -355,7 +364,6 @@
                                     <table class="table table-borderless table-striped table-earning">
                                         <thead>
                                             <tr>
-                                                <th>tanggal</th>
                                                 <th>kode barang</th>
                                                 <th>nama</th>
                                                 <th>gambar</th>
@@ -366,13 +374,11 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>2018-09-29 05:57</td>
                                                 <td>100398</td>
                                                 <td>iPhone X 64Gb Grey</td>
                                                 <td>
                                                     <div class="image">
-                                                        <a href="" data-toggle="modal" data-target="#zoom-gambar"><img
-                                                                src="../images/icon/avatar-01.jpg" alt="dummy"></a>
+                                                        <a href="" data-toggle="modal" data-target="#zoom-gambar"><img src="../images/icon/avatar-01.jpg" alt="dummy"></a>
                                                     </div>
                                                 </td>
                                                 <td>hp</td>
@@ -387,13 +393,11 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>2018-09-29 05:57</td>
                                                 <td>100398</td>
                                                 <td>iPhone X 64Gb Grey</td>
                                                 <td>
                                                     <div class="image">
-                                                        <a href="" data-toggle="modal" data-target="#zoom-gambar"><img
-                                                                src="../images/icon/avatar-01.jpg" alt="dummy"></a>
+                                                        <a href="" data-toggle="modal" data-target="#zoom-gambar"><img src="../images/icon/avatar-01.jpg" alt="dummy"></a>
                                                     </div>
                                                 </td>
                                                 <td>hp</td>
@@ -408,13 +412,11 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>2018-09-29 05:57</td>
                                                 <td>100398</td>
                                                 <td>iPhone X 64Gb Grey</td>
                                                 <td>
                                                     <div class="image">
-                                                        <a href="" data-toggle="modal" data-target="#zoom-gambar"><img
-                                                                src="../images/icon/avatar-01.jpg" alt="dummy"></a>
+                                                        <a href="" data-toggle="modal" data-target="#zoom-gambar"><img src="../images/icon/avatar-01.jpg" alt="dummy"></a>
                                                     </div>
                                                 </td>
                                                 <td>hp</td>
@@ -429,13 +431,11 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>2018-09-29 05:57</td>
                                                 <td>100398</td>
                                                 <td>iPhone X 64Gb Grey</td>
                                                 <td>
                                                     <div class="image">
-                                                        <a href="" data-toggle="modal" data-target="#zoom-gambar"><img
-                                                                src="../images/icon/avatar-01.jpg" alt="dummy"></a>
+                                                        <a href="" data-toggle="modal" data-target="#zoom-gambar"><img src="../images/icon/avatar-01.jpg" alt="dummy"></a>
                                                     </div>
                                                 </td>
                                                 <td>hp</td>
@@ -450,13 +450,11 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>2018-09-29 05:57</td>
                                                 <td>100398</td>
                                                 <td>iPhone X 64Gb Grey</td>
                                                 <td>
                                                     <div class="image">
-                                                        <a href="" data-toggle="modal" data-target="#zoom-gambar"><img
-                                                                src="../images/icon/avatar-01.jpg" alt="dummy"></a>
+                                                        <a href="" data-toggle="modal" data-target="#zoom-gambar"><img src="../images/icon/avatar-01.jpg" alt="dummy"></a>
                                                     </div>
                                                 </td>
                                                 <td>hp</td>
@@ -493,8 +491,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="copyright">
-                                    <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a
-                                            href="https://colorlib.com">Colorlib</a>.</p>
+                                    <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
                                 </div>
                             </div>
                         </div>
@@ -529,6 +526,7 @@
 
     <!-- Main JS-->
     <script src="../js/main-admin.js"></script>
+
 
 </body>
 
